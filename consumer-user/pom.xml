@@ -42,11 +42,11 @@
             <artifactId>zkclient</artifactId>
             <version>0.1</version>
         </dependency>
+        <!-- zookeeper -->
         <dependency>
-            <groupId>com.jackren</groupId>
-            <artifactId>provider-ticket</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.5.5</version>
         </dependency>
 
     </dependencies>
